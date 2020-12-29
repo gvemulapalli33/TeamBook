@@ -1,4 +1,4 @@
-# Turing Yearbook
+# Teambook
 
 This application was built with `create-react-app`.
 
