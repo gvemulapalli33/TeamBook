@@ -1,6 +1,6 @@
 # TeamBook
 
-Link to published site: `https://gvemulapalli33.github.io/TeamBook/`
+Link to published site: https://gvemulapalli33.github.io/TeamBook/
 
 ## All Team Members
 ![All members screenshot](https://raw.github.com/gvemulapalli33/TeamBook/master/AllMembers.png)
