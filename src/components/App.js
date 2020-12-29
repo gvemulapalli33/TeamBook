@@ -9,7 +9,7 @@ function App() {
       <div className="App">
         <header className="App-header">
           <nav>
-           <h1>Yearbook</h1>
+           <h1>TeamBook</h1>
            <Link className="addMember" to="/add">Add New Member</Link>
           </nav>
         </header>

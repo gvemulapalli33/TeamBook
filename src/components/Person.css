@@ -14,11 +14,16 @@
 }
 
 .name {
-    color: red;
+    color: #F49F0A;
+    font-weight: bold;
+}
+
+.quote {
+    color: #E56399;
 }
 
 .goals {
-    color: blue;
+    color: #0ACDFF;
 }
 
 .delete {

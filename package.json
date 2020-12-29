@@ -1,5 +1,5 @@
 {
-  "name": "yearbook",
+  "name": "teambook",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -37,12 +37,12 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gvemulapalli33/yearBook.git"
+    "url": "git+https://github.com/gvemulapalli33/teamBook.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gvemulapalli33/yearBook/issues"
+    "url": "https://github.com/gvemulapalli33/teamBook/issues"
   },
-  "homepage": "https://github.com/gvemulapalli33/yearBook#readme"
+  "homepage": "https://github.com/gvemulapalli33/teamBook#readme"
 }
