@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import people from '../data/yearbook-data.js';
+import people from '../data/teambook-data.js';
 
 export const dataContext = React.createContext();
 
