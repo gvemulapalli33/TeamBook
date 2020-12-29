@@ -1,4 +1,4 @@
-import React, {useRef, useState, useContext} from 'react';
+import React, {useState, useContext} from 'react';
 import './AddTeamMember.css';
 import {dataContext} from "../context/ContextProvider";
 import {Link} from "react-router-dom";
@@ -8,8 +8,6 @@ export default function AddTeamMember() {
     const [name, setName] = useState('');
     const [quote, setQuote] = useState('');
     const [goals, setGoals] = useState('');
-
-    const form = useRef(null);
     const handleSubmit = (event) => {
         event.preventDefault();
         const newMember = {
@@ -41,24 +39,24 @@ export default function AddTeamMember() {
     }
 
     return (
-        <>
-      <h3>Add New Member</h3>
-      <Link to="/"><p className="back">Back to All Members</p></Link>
-      <form ref={form} onSubmit={handleSubmit}>
-          <label htmlFor="name">
-              Name:
-             <input type="text" id="name" name="name" value={name} required onChange={handleChange}></input>
-          </label>
-          <label htmlFor="quote">
-              Quote:
-             <input type="text" id="quote" name="quote" value={quote} required onChange={handleChange}></input>
-          </label>
-          <label htmlFor="goals">
-              Goals:
-             <input type="text" id="goals" name="goals" value={goals} required onChange={handleChange}></input>
-          </label>
-          <button className="btn">Add Member</button>
-      </form>
+      <>
+        <h3>Add New Member</h3>
+        <Link to="/"><p className="back">Back to All Members</p></Link>
+        <form onSubmit={handleSubmit}>
+            <label htmlFor="name">
+                Name:
+                <input type="text" id="name" name="name" value={name} required onChange={handleChange}></input>
+            </label>
+            <label htmlFor="quote">
+                Quote:
+                <input type="text" id="quote" name="quote" value={quote} required onChange={handleChange}></input>
+            </label>
+            <label htmlFor="goals">
+                Goals:
+                <input type="text" id="goals" name="goals" value={goals} required onChange={handleChange}></input>
+            </label>
+            <button className="btn">Add Member</button>
+        </form>
       </>
     );
 

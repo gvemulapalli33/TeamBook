@@ -2,6 +2,8 @@
     background-color: rgba(255, 255, 255, 0.95);
     border-radius: 5px;
     padding: 1em;
+    display: flex;
+    flex-direction: column;
 }
 
 .pic {
@@ -15,6 +17,17 @@
     color: red;
 }
 
-.superlative {
+.goals {
     color: blue;
+}
+
+.delete {
+    font-size: 1.2rem;
+    color: red;
+    width: 25%;
+    align-content: flex-end;
+    margin-left: auto;
+    margin-top: auto;
+    background-color: rgba(255, 255, 255, 0.95);
+    border: 0;
 }

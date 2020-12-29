@@ -1,19 +1,10 @@
-import React, { useState, useContext, useEffect } from 'react';
+import React from 'react';
 import Team from './Team';
-import people from '../data/yearbook-data.js';
 import './App.css';
-import {dataContext} from "../context/ContextProvider";
+
 import {Link} from "react-router-dom";
 
 function App() {
-  const {setProvidedData} = useContext(dataContext);
-  const developerData = people.developers;
-  const [developers, setDevelopers] = useState(developerData);
-
-  useEffect(() => {
-    setProvidedData(developers);
-  }, []);
-
     return (
       <div className="App">
         <header className="App-header">
