@@ -30,8 +30,8 @@ Link to published site: https://gvemulapalli33.github.io/TeamBook/
   3. npm run start
 
 ### Tooling
-1. Webpack
-2. github pages to deploy site
+1. github pages to deploy site
+2. github Issues to track features
 
 ### Planned Extensions
 1. Ability to Edit Profile
