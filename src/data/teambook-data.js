@@ -7,12 +7,12 @@ const people = {
     {id: 5, name: 'Gaurav', quote: 'It\'s okay to be kind of a mess.', goals: 'Most Likely to Go to the Moon', photo: './leta.jpg'},
     {id: 6, name: 'Disha', quote: 'Every journey begins with a single step. So take the damn step!', goals: 'Most Likely to Be President', photo: './christie.jpg'},
     {id: 7, name: 'Savitha', quote: 'It was Robbie.', goals: 'Most Likely to Get Away with Murder', photo: './brittany.jpg'},
-    {id: 8, name: 'Ravi', quote: 'Cool.', goals: 'Most Likely to Be Accused of Murder', photo: './robbie.jpg'},
-    {id: 9, name: 'Ram', quote: 'Stop worrying and just do the thing.', goals: 'Most Likely to Invent Cold Fusion', photo: './will.jpg'},
+    {id: 8, name: 'Adhiti', quote: 'Cool.', goals: 'Most Likely to Be Accused of Murder', photo: './robbie.jpg'},
+    {id: 9, name: 'Wan', quote: 'Stop worrying and just do the thing.', goals: 'Most Likely to Invent Cold Fusion', photo: './will.jpg'},
     {id: 10, name: 'Adhya', quote: 'Shit!', goals: 'Most Likely to Win a Gold Medal', photo: './pam.jpg'},
-    {id: 11, name: 'Adhiti', quote: 'I love git.', goals: 'Most Likely to Be Eaten by a Shark', photo: './david.JPG'},
+    {id: 11, name: 'Ram', quote: 'I love git.', goals: 'Most Likely to Be Eaten by a Shark', photo: './david.JPG'},
     {id: 12, name: 'Sawpna', quote: 'YOLO', goals: 'Most Likely to Win a Knife Fight', photo: './louisa.jpg'},
-    {id: 13, name: 'Wan', quote: '::thoughtful nonsense::', goals: 'Most Likely to Tell a Dad Joke', photo: 'https://i.ytimg.com/vi/DhqzMc_LXgQ/maxresdefault.jpg'},
+    {id: 13, name: 'Ravi', quote: '::thoughtful nonsense::', goals: 'Most Likely to Tell a Dad Joke', photo: 'https://i.ytimg.com/vi/DhqzMc_LXgQ/maxresdefault.jpg'},
   ]
 }
 
