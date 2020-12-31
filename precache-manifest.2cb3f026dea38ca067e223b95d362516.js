@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9f88454b3cd3705abc7b0d886db965f5",
+    "revision": "2356b5569b836c2cb65c0f779dbc78fe",
     "url": "/TeamBook/index.html"
   },
   {
-    "revision": "4ff7f2d8e4585b648ce1",
+    "revision": "8d28a3ee2875b3bcd0e3",
     "url": "/TeamBook/static/css/main.400225ba.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/TeamBook/static/js/2.1f6fc7ab.chunk.js"
   },
   {
-    "revision": "4ff7f2d8e4585b648ce1",
-    "url": "/TeamBook/static/js/main.9dccd913.chunk.js"
+    "revision": "8d28a3ee2875b3bcd0e3",
+    "url": "/TeamBook/static/js/main.9efc5812.chunk.js"
   },
   {
     "revision": "b46729aff33fe86476f2",
